@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class pranav;
+class pranav
 {
     private:
     int a,b,sum;
@@ -19,9 +19,11 @@ int putdata()
     cout<<"the sum:"<<sum<<endl;
     return 0;
 }
+};
 int main()
+{
 pranav p;
-p.int getdata();
+p.getdata();
 p.putdata();
 return 0;
 }
